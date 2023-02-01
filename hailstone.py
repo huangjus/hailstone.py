@@ -1,4 +1,4 @@
-def hailstone(n):
+def hailstone(num):
     """
         This function takes a positive integer parameter as the initial number of a hailstone sequence
         and returns the number of steps it takes to reach 1.
@@ -7,10 +7,10 @@ def hailstone(n):
         If it is odd, it is multiplied by three and added one to get the next integer in the sequence.
         The process continues until the value is equal to 1.
 
-        n: The starting number of the hailstone sequence. Must be a positive integer.
+        num: The starting number of the hailstone sequence. Must be a positive integer.
 
         Returns:
-        int: The number of steps it takes to reach 1. If the starting integer is 1, the return value is 0.
+        steps: The number of steps it takes to reach 1. If the starting integer is 1, the return value is 0.
     """
 
     steps = 0
